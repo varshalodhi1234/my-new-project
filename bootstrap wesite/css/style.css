@@ -1,0 +1,502 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-top{
+    background-color: #023b6d;
+}
+
+.header-top .col-3 h5 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.header-top .col-3 h5 .fa.fa-angle-left{
+    padding-right: 10px;
+  
+}
+
+
+
+.header-top .col-3 h5 .fa.fa-angle-right{
+    padding-left: 10px;
+  
+}
+
+.header-top .col-3 h6 a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-bottom {
+    z-index: 99;
+   
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.header-bottom .col-3 h2{
+   
+    font-weight: bold;
+}
+
+
+
+.header-bottom .col-9 .nav-link{
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+   
+  
+}
+
+.header-bottom .col-9 .nav-link:hover{
+    color: green;
+}
+
+.header-bottom .col-9 button{
+    border-radius: 30px;
+    
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+    width: 513px;
+background-color: #c26b91;}
+
+.banner-thembg{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner-thembg::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.417);
+
+}
+
+.banner-thembg .col-12 h1{
+    font-size: 49px;
+    max-width:447px;
+    position: relative;
+    z-index: 99;
+}
+
+
+.banner-thembg .col-12 h5{
+    font-size:24px;
+    position: relative;
+    z-index: 99;
+}
+
+.banner-thembg .col-12 button{
+    border: 2px solid white;
+    padding: 7px 50px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 99;
+}
+
+.banner-thembg .col-12 button:hover{
+    background-color: green;
+    border: 2px solid green;
+    color: white;
+  
+}
+
+.Voluptatem .col-6 i{
+    color: green;
+    font-size: 20px;
+    padding-right: 7px;
+   
+
+}
+
+
+.course-thembg{
+    background-color: #f6f7f6;
+    text-align: center;
+   
+}
+
+
+.course-thembg .col-3 h1{
+    font-size:52px;
+}
+
+.course-thembg .col-3 h5{
+    font-size: 20px;
+}
+
+.Mentor .col-4 .card{
+    background-color:#5fcf80;
+    border: none;
+    padding: 30px;
+}
+
+.Mentor .col-4 .card h2{
+    font-size:35px;
+}
+
+.Mentor .col-4 .card p{
+    font-size:18px;
+}
+
+.Mentor .col-4 .card button{
+    background-color: #92fcb2a9;
+    border: none;
+    border-radius: 30px;
+    width: 133px;
+    height: 40px;
+    margin-left: 57px;
+    padding-top: 2px;
+}
+
+.Mentor .col-4 .card button:hover{
+    background-color: white;
+    color: black;
+}
+
+.Mentor .col-2 .card{
+    text-align: center;
+    padding: 24px;
+}
+.Mentor .col-2 .card i{
+    background-color: #ddf9e5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 23px;
+    padding-top: 17px;
+}
+
+.features .col-3{
+    border: 1px solid rgb(220, 217, 217);
+    margin-top:25px;
+    
+   
+}
+
+.features .col-3 h5 a{
+    color:black;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.fa.fa-archive{
+    color: rgb(227, 202, 12);
+    font-size: 25px;
+}
+
+.fa.fa-calendar-minus-o{
+    color: rgb(249, 39, 109);
+    font-size: 25px;
+}
+
+.fa.fa-magnet{
+    color: purple;
+    font-size: 25px;
+}
+
+.fa.fa-pencil-square-o{
+    font-size: 25px;
+}
+
+.fa.fa-stop-circle-o{
+    font-size: 25px;
+
+}
+
+.fa.fa-id-card-o{
+    font-size: 25px;
+
+}
+
+.fa.fa-home{
+    font-size: 25px;
+
+}
+
+.course{
+    margin-top: 100px;
+    position: relative;
+}
+
+.course .col-12 h5::after{
+    content: "";
+    width: 125px;
+    height: 1px;
+    background-color: #5fcf80;
+    position: absolute;
+    left: 111px;
+    top: 16px;
+
+}
+
+.course .col-4 p{
+    border-bottom: 1px solid rgb(233, 230, 230);
+}
+
+.course .col-4 span{
+    float: right;
+}
+
+.trainer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ display: inline-block;
+}
+.trainer-text ul li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+.trainer-text ul li i{
+    padding-right: 6px;
+}
+
+.team-thembg{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.team-thembg .col-4 .card h6{
+    font-size: 15px;
+
+}
+
+.team-thembg .col-4 .card i{
+    font-size:20px;
+    padding:1px;
+   
+}
+
+.footer{
+    background-color: #f9faf9;
+    margin-top: 100px;
+}
+
+.footer .col-4 h6{
+    font-size: 15px;
+}
+
+.footer .col-4 p{
+    max-width:155px;
+}
+
+.footer .col-2 ul li{
+    list-style: none;
+}
+
+.footer .col-2 ul li a{
+   text-decoration: none;
+   font-weight:normal;
+}
+
+.footer .col-2 i{
+   color: #5fcf80;
+   padding-right: 5px;
+}
+
+.footer .col-4 h4{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footer .col-4 input{
+    border-radius: 30px;
+    height: 40px;
+    width: 304px;
+    position: relative;
+}
+
+.footer-last{
+    background-color: #eef0ef;
+    margin-top: 50px;
+}
+
+.footer-last .col-12 h6{
+    font-weight:100;
+    max-width: 259px;
+}
+
+.footer-last .col-12 h6 a{
+    color: #5fcf80;
+    text-decoration: none;
+}
+
+.footer button{
+    position: absolute;
+    right: 15px;
+    top: 108px;
+    border-radius: 30px;
+}
+
+.footer-last .col-12 i{
+    float:right;
+    margin: 10px;
+    background-color: #5fcf80;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
+.collaps{
+    margin-top: 100px;
+   
+    
+}
+
+.collaps .accordion{
+    box-shadow: 1px 1px 4px rgb(148, 146, 146);
+
+}
+
+.collaps .card-header{
+    background-color: white;
+   
+}
+
+.collaps .card-header h2 button{
+    color: black;
+    font-weight:500;
+    text-decoration: none;
+    font-size: 20px;
+  
+}
+
+
+.collaps .card-header h2 button i{
+    float: right;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+.tab-content h4 {
+    background: #c26b91;
+    margin: 0;
+    padding: 15px 0;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.tab-content {
+    border: 1px solid #c26b91;
+    border-radius: 5px;
+}
+
+.nav-link.active h6 {
+    background: #c26b91;
+    color: white;
+}
+.nav-link.active{
+    background: #c26b91;
+    box-shadow: 0 0 6px #c26b91!important;
+}
+.tab-buttons button {
+    width: 45%;
+    margin: 5px;
+}
+.tab-buttons button {
+    background: white !important;
+    color: #000 !important;
+    border: 1px solid #ddd !important;
+    border-radius: 0 !important;
+    padding: 0;
+}
+.tab-buttons {
+    height: 500px;
+    overflow-y: auto;
+}
+.tab-buttons h6 {
+    margin: 0;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.brand-img {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand-img img {
+    max-width: 90%;
+    max-height: 90%;
+}
+.custom-title {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+    height: inherit;
+    white-space: pre-wrap;
+    font-size: 15px;
+}
+h5.price {
+    color: #c26b91;
+    font-size: 15px;
+}
+.card{
+    margin-bottom: 20px;
+    border: 1px solid #dfd4c5;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.15);
+    cursor: pointer;
+}
+.tab-pane{
+    border: none !important;
+}
+
+@media screen and(max-width:767px){
+    .header-top{
+        display: none;
+    }
+
+    .header-bottom {
+        display: none !important;
+    position: static;}
+}
+    
